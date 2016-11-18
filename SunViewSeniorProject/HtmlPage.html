@@ -119,7 +119,7 @@
                         </md-content>
                     </md-tab-content>
                 </md-tab>
-                <md-tab label="Users">
+                <md-tab label="APPLICATION SETTINGS">
                     <md-tab-content layout = "column" ng-controller="UserCtrl" style="background:rgb(233,235,237);">
                         <md-content flex="100" layout="column" layout-padding layout-align="center center" style="margin-top:2px; background: url('img/Trans2.png'), rgb(54,61,69); text-align:center; background-repeat:no-repeat; background-position-x:-25%; background-size:50%;">
                             <div>
@@ -130,7 +130,7 @@
                             <br />
                             <span class="darkLabel" style="padding-right:10px;">TFS Password</span>
                             <md-input-container class="userInput">
-                                <input ng-model="tfsPass" class="userbox"/>
+                                <input type="password" ng-model="tfsPass" class="userbox"/>
                             </md-input-container>
                             </div>
                             <br /> <br />
@@ -142,7 +142,7 @@
                             <br />
                             <span class="darkLabel" style="padding-right:10px;">CG Password</span>
                             <md-input-container class="userInput">
-                                <input ng-model="cgPass" class="userbox"/>
+                                <input type="password" ng-model="cgPass" class="userbox"/>
                             </md-input-container>
                             </div>
                             <br /> <br />
@@ -160,7 +160,7 @@
                         </md-content>
                     </md-tab-content>
                 </md-tab>
-                <md-tab label="Appenders">
+                <md-tab label="LOG FILE">
                     <md-tab-content layout="column" ng-controller="AppendCtrl" style="background:rgb(233,235,237);">
                         <md-content flex="100" layout="column" layout-padding layout-align="center center" style="margin-top:2px; background: url('img/Trans2.png'), rgb(54,61,69); text-align:center; background-repeat:no-repeat; background-position-x:-25%; background-size:50%;">
                             <div>
